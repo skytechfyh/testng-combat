@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="testAll" verbose="1" parallel="methods" thread-count="2">
+	<test name="mixParallel">
+		<packages>
+			<package name="com.testng.example2"/>
+			<package name="com.testng.example3"/>
+		</packages>
+	</test>
+</suite>
